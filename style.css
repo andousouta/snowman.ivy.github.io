@@ -1,0 +1,364 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("/mnt/data/96b5cd46-f6be-4b18-9938-e2d7d10c77f0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #056cd4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    border: 2px solid #0056b3; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+     font-size: 1.5rem; 
+}
+
+/* セクションタイトル */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(251, 251, 252, 0.9); /* 背景を半透明に変更 */
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(7, 7, 7, 0.1);
+    border: 2px solid #ddd; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.2rem;
+}
+
+
+
+/* メンバーリスト */
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    border: 2px solid #ccc; /* 枠線を追加 */
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.member1 {
+    width: calc(100% - 1rem);
+    background-color: #c4f307;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(202, 233, 6, 0.1);
+    border: 2px solid #dcf005; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem;
+}
+.member2 {
+    width: calc(100% - 1rem);
+    background-color: #c606f6;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(249, 6, 208, 0.1);
+    border: 2px solid #d702f8; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem;
+}
+.member3 {
+    width: calc(100% - 1rem);
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(9, 47, 239, 0.1);
+    border: 2px solid #e0e0e0; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem;
+}.member4 {
+    width: calc(100% - 1rem);
+    background-color: #585bf1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(227, 141, 13, 0.1);
+    border: 2px solid #2201f9; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem;
+}.member5 {
+    width: calc(100% - 1rem);
+    background-color: #f96e04;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(23, 12, 12, 0.1);
+    border: 2px solid #f66606; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem;
+}.member6 {
+    width: calc(100% - 1rem);
+    background-color: #05f230;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(15, 243, 53, 0.1);
+    border: 2px solid #02fa17; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem;
+}.member7 {
+    width: calc(100% - 1rem);
+    background-color: #120f0f;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(240, 232, 232, 0.1);
+    border: 2px solid #1a0101; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.4rem;
+}.member8 {
+    width: calc(100% - 1rem);
+    background-color: #ff0606;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(253, 6, 14, 0.1);
+    border: 2px solid #fb0404; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem; 
+}.member9 {
+    width: calc(100% - 1rem);
+    background-color: #f5379c;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(250, 48, 190, 0.1);
+    border: 2px solid #fa118d; /* 枠線を追加 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.3rem; 
+}
+
+.member img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #faf3f3; /* 枠線を追加 */
+}
+
+
+/* 楽曲リスト */
+.song-list {
+    list-style: none;
+    padding: 0;
+    border: 2px solid #ddd; /* 枠線を追加 */
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.song-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #f1f1f1; /* 枠線を追加 */
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1.0rem; 
+}
+
+.song-list img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    border: 2px solid #ccc; /* 枠線を追加 */
+}
+
+/* フッター */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    border-top: 2px solid #555; /* 上部の枠線を追加 */
+
+}
+
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    color: #333;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #f3f5f7;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    border: 2px solid #383b3f; /* 枠線を追加 */
+}
+
+/* セクションタイトル */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fbfbfc;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(7, 7, 7, 0.1);
+    border: 2px solid #ddd; /* 枠線を追加 */
+}
+
+h2 {
+    color: #066ef5;
+    border-bottom: 10px solid #037cfe; /* 下線を追加 */
+    padding-bottom: 0.5rem;
+    font-size: 30px;
+}
+h4 {
+    color: #d4dce5;
+    border-bottom: 2px solid #e1e7ee; /* 下線を追加 */
+    padding-bottom: 0.5rem;
+}
+
+/* メンバーリスト */
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    border: 2px solid #ccc; /* 枠線を追加 */
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.member {
+    width: calc(50% - 1rem);
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #6e3a3a; /* 枠線を追加 */
+}
+
+.member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ccc; /* 枠線を追加 */
+}
+
+/* 楽曲リスト */
+.song-list {
+    list-style: none;
+    padding: 0;
+    border: 2px solid #3b2020; /* 枠線を追加 */
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.song-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #f1f1f1; /* 枠線を追加 */
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.song-list img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    border: 2px solid #ccc; /* 枠線を追加 */
+}
+
+/* 動画セクション */
+.video-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid #ddd; /* 枠線を追加 */
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem; 
+    justify-content: center;
+}  
+
+.video-section .text-content {
+    flex: 1;
+}
+
+.video-section .video {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+/* フッター */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    border-top: 2px solid #555; /* 上部の枠線を追加 */
+}
+
+.member7 p{
+    color: #ffff;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+    color: #0703f5;
+    border-bottom: 10px solid #0279f9; /* 下線を追加 */
+    padding-bottom: 0.5rem;
+    font-size: 30px;
+}
